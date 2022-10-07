@@ -18,8 +18,8 @@ const[count,setCount]=useState(1)
     <div id="main">
      <div id='counter'>
         <h2 className= {count % 5 == 0 && count % 3 == 0 ? 'fizzbuzz' : (count % 3 == 0) ? 'fizz' : (count % 5 == 0 ) ? 'buzz' : 'normal'}>{count}</h2>
-        <button id='increment' onClick={IncrementHandler}>Increment</button>
-        <button id='decrement' onClick={DecrementHandler}>Decrement</button>
+        <button id='increment' onClick={IncrementHandler}>Increments</button>
+        <button id='decrement' onClick={DecrementHandler}>Decrements</button>
     </div>
 
     </div>
