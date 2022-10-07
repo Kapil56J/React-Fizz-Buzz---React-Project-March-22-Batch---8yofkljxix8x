@@ -13,3 +13,12 @@
 .normal{
     background-color: pink;
 }
+
+button{
+    margin: 10px;
+}
+
+#count{
+    text-align: center;
+    margin-top: 50px;
+}
